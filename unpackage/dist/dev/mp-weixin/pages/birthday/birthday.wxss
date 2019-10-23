@@ -1,0 +1,979 @@
+page {
+    /*background-color: #FFDAB9;	*/
+    background-color: #000;
+    -webkit-transition: background-color linear 5s;
+    -o-transition: background-color linear 5s;
+    transition: background-color linear 5s;
+    overflow-x: hidden;
+}
+.peach {
+    background-color: #FFDAB9;
+    width: 100%;
+}
+.peach-after {
+    -webkit-animation: peach_alive linear 8s infinite;
+    animation: peach_alive linear 8s infinite;
+}
+@-webkit-keyframes peach_alive {
+0% {
+        background-color: #FFDAB9;
+}
+25% {
+        background-color: #FFE4B5;
+}
+50% {
+        background-color: #FFDAB9;
+}
+75% {
+        background-color: #FFEFD5;
+}
+100% {
+        background-color: #FFDAB9;
+}
+}
+@keyframes peach_alive {
+0% {
+        background-color: #FFDAB9;
+}
+25% {
+        background-color: #FFE4B5;
+}
+50% {
+        background-color: #FFDAB9;
+}
+75% {
+        background-color: #FFEFD5;
+}
+100% {
+        background-color: #FFDAB9;
+}
+}
+.light {
+    position:  absolute;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.bulb {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    background-repeat: no-repeat no-repeat;
+    background-position: center 0px;
+    background-size: 50px 50px;
+}
+.bulb-holder {
+    height: 70px;
+}
+.bulb-glow-yellow {
+    background-image: url('http://cdn.jie12366.xyz/bulb_yellow.png');
+    -webkit-animation: bulb_glow_yellow linear 5s;
+    animation: bulb_glow_yellow linear 5s;
+}
+@-webkit-keyframes bulb_glow_yellow {
+0% {
+        background-image: url('http://cdn.jie12366.xyz/bulb.png');
+        opacity: 0;
+}
+50% {
+        opacity: 1;
+}
+100% {
+        background-image: url('http://cdn.jie12366.xyz/bulb_yellow.png');
+        opacity: 1;
+}
+}
+@keyframes bulb_glow_yellow {
+0% {
+        background-image: url('http://cdn.jie12366.xyz/bulb.png');
+        opacity: 0;
+}
+50% {
+        opacity: 1;
+}
+100% {
+        background-image: url('http://cdn.jie12366.xyz/bulb_yellow.png');
+        opacity: 1;
+}
+}
+.bulb-glow-red {
+    background-image: url('http://cdn.jie12366.xyz/bulb_red.png');
+    -webkit-animation: bulb_glow_red linear 5s;
+    animation: bulb_glow_red linear 5s;
+}
+@-webkit-keyframes bulb_glow_red {
+0% {
+        background-image: url('http://cdn.jie12366.xyz/bulb.png');
+        opacity: 0;
+}
+50% {
+        opacity: 1;
+}
+100% {
+        background-image: url('http://cdn.jie12366.xyz/bulb_red.png');
+        opacity: 1;
+}
+}
+@keyframes bulb_glow_red {
+0% {
+        background-image: url('http://cdn.jie12366.xyz/bulb.png');
+        opacity: 0;
+}
+50% {
+        opacity: 1;
+}
+100% {
+        background-image: url('http://cdn.jie12366.xyz/bulb_red.png');
+        opacity: 1;
+}
+}
+.bulb-glow-blue {
+    background-image: url('http://cdn.jie12366.xyz/bulb_blue.png');
+    -webkit-animation: bulb_glow_blue linear 5s;
+    animation: bulb_glow_blue linear 5s;
+}
+@-webkit-keyframes bulb_glow_blue {
+0% {
+        background-image: url('http://cdn.jie12366.xyz/bulb.png');
+        opacity: 0;
+}
+50% {
+        opacity: 1;
+}
+100% {
+        background-image: url('http://cdn.jie12366.xyz/bulb_blue.png');
+        opacity: 1;
+}
+}
+@keyframes bulb_glow_blue {
+0% {
+        background-image: url('http://cdn.jie12366.xyz/bulb.png');
+        opacity: 0;
+}
+50% {
+        opacity: 1;
+}
+100% {
+        background-image: url('http://cdn.jie12366.xyz/bulb_blue.png');
+        opacity: 1;
+}
+}
+.bulb-glow-green {
+    background-image: url('http://cdn.jie12366.xyz/bulb_green.png');
+    -webkit-animation: bulb_glow_green linear 5s;
+    animation: bulb_glow_green linear 5s;
+}
+@-webkit-keyframes bulb_glow_green {
+0% {
+        background-image: url('http://cdn.jie12366.xyz/bulb.png');
+        opacity: 0;
+}
+50% {
+        opacity: 1;
+}
+100% {
+        background-image: url('http://cdn.jie12366.xyz/bulb_green.png');
+        opacity: 1;
+}
+}
+@keyframes bulb_glow_green {
+0% {
+        background-image: url('http://cdn.jie12366.xyz/bulb.png');
+        opacity: 0;
+}
+50% {
+        opacity: 1;
+}
+100% {
+        background-image: url('http://cdn.jie12366.xyz/bulb_green.png');
+        opacity: 1;
+}
+}
+.bulb-glow-pink {
+    background-image: url('http://cdn.jie12366.xyz/bulb_pink.png');
+    -webkit-animation: bulb_glow_pink linear 5s;
+    animation: bulb_glow_pink linear 5s;
+}
+@-webkit-keyframes bulb_glow_pink {
+0% {
+        background-image: url('http://cdn.jie12366.xyz/bulb.png');
+        opacity: 0;
+}
+50% {
+        opacity: 1;
+}
+100% {
+        background-image: url('http://cdn.jie12366.xyz/bulb_pink.png');
+        opacity: 1;
+}
+}
+@keyframes bulb_glow_pink {
+0% {
+        background-image: url('http://cdn.jie12366.xyz/bulb.png');
+        opacity: 0;
+}
+50% {
+        opacity: 1;
+}
+100% {
+        background-image: url('http://cdn.jie12366.xyz/bulb_pink.png');
+        opacity: 1;
+}
+}
+.bulb-glow-orange {
+    background-image: url('http://cdn.jie12366.xyz/bulb_orange.png');
+    -webkit-animation: bulb_glow_orange linear 5s;
+    animation: bulb_glow_orange linear 5s;
+}
+@-webkit-keyframes bulb_glow_orange {
+0% {
+        background-image: url('http://cdn.jie12366.xyz/bulb.png');
+        opacity: 0;
+}
+50% {
+        opacity: 1;
+}
+100% {
+        background-image: url('http://cdn.jie12366.xyz/bulb_orange.png');
+        opacity: 1;
+}
+}
+@keyframes bulb_glow_orange {
+0% {
+        background-image: url('http://cdn.jie12366.xyz/bulb.png');
+        opacity: 0;
+}
+50% {
+        opacity: 1;
+}
+100% {
+        background-image: url('http://cdn.jie12366.xyz/bulb_orange.png');
+        opacity: 1;
+}
+}
+
+/*after music*/
+.bulb-glow-yellow-after {
+    background-image: url('http://cdn.jie12366.xyz/bulb_yellow.png');
+    -webkit-animation: bulb_glow_yellow_after linear 1s infinite;
+    animation: bulb_glow_yellow_after linear 1s infinite;
+}
+@-webkit-keyframes bulb_glow_yellow_after {
+0% {
+        background-image: url('http://cdn.jie12366.xyz/bulb.png');
+}
+50% {
+        background-image: url('http://cdn.jie12366.xyz/bulb_yellow.png');
+}
+100% {
+        background-image: url('http://cdn.jie12366.xyz/bulb.png');
+}
+}
+@keyframes bulb_glow_yellow_after {
+0% {
+        background-image: url('http://cdn.jie12366.xyz/bulb.png');
+}
+50% {
+        background-image: url('http://cdn.jie12366.xyz/bulb_yellow.png');
+}
+100% {
+        background-image: url('http://cdn.jie12366.xyz/bulb.png');
+}
+}
+.bulb-glow-red-after {
+    background-image: url('http://cdn.jie12366.xyz/bulb_red.png');
+    -webkit-animation: bulb_glow_red_after linear 1.2s infinite;
+    animation: bulb_glow_red_after linear 1.2s infinite;
+}
+@-webkit-keyframes bulb_glow_red_after {
+0% {
+        background-image: url('http://cdn.jie12366.xyz/bulb.png');
+}
+50% {
+        background-image: url('http://cdn.jie12366.xyz/bulb_red.png');
+}
+100% {
+        background-image: url('http://cdn.jie12366.xyz/bulb.png');
+}
+}
+@keyframes bulb_glow_red_after {
+0% {
+        background-image: url('http://cdn.jie12366.xyz/bulb.png');
+}
+50% {
+        background-image: url('http://cdn.jie12366.xyz/bulb_red.png');
+}
+100% {
+        background-image: url('http://cdn.jie12366.xyz/bulb.png');
+}
+}
+.bulb-glow-blue-after {
+    background-image: url('http://cdn.jie12366.xyz/bulb_blue.png');
+    -webkit-animation: bulb_glow_blue_after linear 1.4s infinite;
+    animation: bulb_glow_blue_after linear 1.4s infinite;
+}
+@-webkit-keyframes bulb_glow_blue_after {
+0% {
+        background-image: url('http://cdn.jie12366.xyz/bulb.png');
+}
+50% {
+        background-image: url('http://cdn.jie12366.xyz/bulb_blue.png');
+}
+100% {
+        background-image: url('http://cdn.jie12366.xyz/bulb.png');
+}
+}
+@keyframes bulb_glow_blue_after {
+0% {
+        background-image: url('http://cdn.jie12366.xyz/bulb.png');
+}
+50% {
+        background-image: url('http://cdn.jie12366.xyz/bulb_blue.png');
+}
+100% {
+        background-image: url('http://cdn.jie12366.xyz/bulb.png');
+}
+}
+.bulb-glow-green-after {
+    background-image: url('http://cdn.jie12366.xyz/bulb_green.png');
+    -webkit-animation: bulb_glow_green_after linear 1.8s infinite;
+    animation: bulb_glow_green_after linear 1.8s infinite;
+}
+@-webkit-keyframes bulb_glow_green_after {
+0% {
+        background-image: url('http://cdn.jie12366.xyz/bulb.png');
+}
+50% {
+        background-image: url('http://cdn.jie12366.xyz/bulb_green.png');
+}
+100% {
+        background-image: url('http://cdn.jie12366.xyz/bulb.png');
+}
+}
+@keyframes bulb_glow_green_after {
+0% {
+        background-image: url('http://cdn.jie12366.xyz/bulb.png');
+}
+50% {
+        background-image: url('http://cdn.jie12366.xyz/bulb_green.png');
+}
+100% {
+        background-image: url('http://cdn.jie12366.xyz/bulb.png');
+}
+}
+.bulb-glow-pink-after {
+    background-image: url('http://cdn.jie12366.xyz/bulb_pink.png');
+    -webkit-animation: bulb_glow_pink_after linear 2s infinite;
+    animation: bulb_glow_pink_after linear 2s infinite;
+}
+@-webkit-keyframes bulb_glow_pink_after {
+0% {
+        background-image: url('http://cdn.jie12366.xyz/bulb.png');
+}
+50% {
+        background-image: url('http://cdn.jie12366.xyz/bulb_pink.png');
+}
+100% {
+        background-image: url('http://cdn.jie12366.xyz/bulb.png');
+}
+}
+@keyframes bulb_glow_pink_after {
+0% {
+        background-image: url('http://cdn.jie12366.xyz/bulb.png');
+}
+50% {
+        background-image: url('http://cdn.jie12366.xyz/bulb_pink.png');
+}
+100% {
+        background-image: url('http://cdn.jie12366.xyz/bulb.png');
+}
+}
+.bulb-glow-orange-after {
+    background-image: url('http://cdn.jie12366.xyz/bulb_orange.png');
+    -webkit-animation: bulb_glow_orange_after linear 2.2s infinite;
+    animation: bulb_glow_orange_after linear 2.2s infinite;
+}
+@-webkit-keyframes bulb_glow_orange_after {
+0% {
+        background-image: url('http://cdn.jie12366.xyz/bulb.png');
+}
+50% {
+        background-image: url('http://cdn.jie12366.xyz/bulb_orange.png');
+}
+100% {
+        background-image: url('http://cdn.jie12366.xyz/bulb.png');
+}
+}
+@keyframes bulb_glow_orange_after {
+0% {
+        background-image: url('http://cdn.jie12366.xyz/bulb.png');
+}
+50% {
+        background-image: url('http://cdn.jie12366.xyz/bulb_orange.png');
+}
+100% {
+        background-image: url('http://cdn.jie12366.xyz/bulb.png');
+}
+}
+audio {
+    display: none;
+}
+.bannar {
+    position: absolute;
+    width: 100%;
+    margin-top: 80rpx;
+    max-width: 100%;
+    max-height: 100%;
+    -webkit-transform: translate(0px, -500px);
+    -ms-transform: translate(0px, -500px);
+    transform: translate(0px, -500px);
+}
+.bannar-come {
+    -webkit-animation: bannar_come linear 6s;
+    -webkit-transform: translate(0px, 0px);
+    -moz-animation: bannar_come linear 6s;
+    -moz-transform: translate(0px, 0px);
+    -o-animation: bannar_come linear 6s;
+    -o-transform: translate(0px, 0px);
+    -ms-animation: bannar_come linear 6s;
+    -ms-transform: translate(0px, 0px);
+    animation: bannar_come linear 6s;
+    transform: translate(0px, 0px);
+}
+@-webkit-keyframes bannar_come {
+0% {
+        -webkit-transform: translate(0px, -1000px);
+}
+33% {
+        -webkit-transform: translate(0px, 0px);
+        -webkit-transform: rotate(10deg);
+        /*-webkit-transform:scale(1.5);*/
+}
+66% {
+        -webkit-transform: translate(0px, 100px);
+        -webkit-transform: rotate(-10deg);
+}
+100% {
+        -webkit-transform: translate(0px, 0px);
+}
+}
+@keyframes bannar_come {
+0% {
+        -webkit-transform: translate(0px, -1000px);
+                transform: translate(0px, -1000px);
+}
+33% {
+        -webkit-transform: translate(0px, 0px);
+                transform: translate(0px, 0px);
+        -webkit-transform: rotate(10deg);
+                transform: rotate(10deg);
+        /*-webkit-transform:scale(1.5);*/
+}
+66% {
+        -webkit-transform: translate(0px, 100px);
+                transform: translate(0px, 100px);
+        -webkit-transform: rotate(-10deg);
+                transform: rotate(-10deg);
+}
+100% {
+        -webkit-transform: translate(0px, 0px);
+                transform: translate(0px, 0px);
+}
+}
+.balloons {
+    position: absolute;
+    bottom: 200px;
+    opacity: 0.6;
+    z-index: 99;
+    width: 100px;
+    height: 183px;
+    background-repeat: no-repeat no-repeat;
+    background-size: 100px 183px;
+}
+.balloons view {
+    text-transform: uppercase;
+    font-family: 'Signika', sans-serif;
+    font-size: 50px;
+    color: #BF4136;
+    text-shadow: 5px 5px 5px #FFF;
+    display: none;
+}
+#b1,
+#b11 {
+    background-image: url('http://cdn.jie12366.xyz/b1.png');
+}
+.b1-fly{
+    left: 50rpx;
+    top: 400rpx;
+}
+#b2,
+#b22 {
+    background-image: url('http://cdn.jie12366.xyz/b2.png');
+}
+.b2-fly{
+    left: 50rpx;
+    top: 500rpx;
+}
+#b3,
+#b33 {
+    background-image: url('http://cdn.jie12366.xyz/b3.png');
+}
+.b3-fly{
+    left: 50rpx;
+    top: 600rpx;
+}
+#b4,
+#b44 {
+    background-image: url('http://cdn.jie12366.xyz/b4.png');
+}
+.b4-fly{
+    left: 50rpx;
+    top: 700rpx;
+}
+#b5,
+#b55 {
+    background-image: url('http://cdn.jie12366.xyz/b5.png');
+}
+.b5-fly{
+    left:550rpx;
+    top: 400rpx;
+}
+#b6,
+#b66 {
+    background-image: url('http://cdn.jie12366.xyz/b6.png');
+}
+.b6-fly{
+    left: 550rpx;
+    top: 500rpx;
+}
+#b7,
+#b77 {
+    background-image: url('http://cdn.jie12366.xyz/b7.png');
+}
+.b7-fly{
+    left: 550rpx;
+    top: 600rpx;
+}
+.balloons-rotate-behaviour-one {
+    -webkit-animation: balloons_rotate_one linear 10s infinite;
+    -webkit-transform: rotate(30deg);
+    -moz-animation: balloons_rotate_one linear 10s infinite;
+    -moz-transform: rotate(30deg);
+    -o-animation: balloons_rotate_one linear 10s infinite;
+    -o-transform: rotate(30deg);
+    -ms-animation: balloons_rotate_one linear 10s infinite;
+    -ms-transform: rotate(30deg);
+    animation: balloons_rotate_one linear 10s infinite;
+    transform: rotate(30deg);
+}
+@-webkit-keyframes balloons_rotate_one {
+0% {
+        -webkit-transform: rotate(30deg);
+}
+50% {
+        -webkit-transform: rotate(-30deg);
+}
+100% {
+        -webkit-transform: rotate(30deg);
+}
+}
+@keyframes balloons_rotate_one {
+0% {
+        -webkit-transform: rotate(30deg);
+                transform: rotate(30deg);
+}
+50% {
+        -webkit-transform: rotate(-30deg);
+                transform: rotate(-30deg);
+}
+100% {
+        -webkit-transform: rotate(30deg);
+                transform: rotate(30deg);
+}
+}
+.balloons-rotate-behaviour-two {
+    -webkit-animation: balloons_rotate_two linear 10s infinite;
+    -webkit-transform: rotate(-20deg);
+    -moz-animation: balloons_rotate_two linear 10s infinite;
+    -moz-transform: rotate(-20deg);
+    -o-animation: balloons_rotate_two linear 10s infinite;
+    -o-transform: rotate(-20deg);
+    -ms-animation: balloons_rotate_two linear 10s infinite;
+    -ms-transform: rotate(-20deg);
+    animation: balloons_rotate_two linear 10s infinite;
+    transform: rotate(-20deg);
+}
+@-webkit-keyframes balloons_rotate_two {
+0% {
+        -webkit-transform: rotate(-20deg);
+}
+50% {
+        -webkit-transform: rotate(20deg);
+}
+100% {
+        -webkit-transform: rotate(-20deg);
+}
+}
+@keyframes balloons_rotate_two {
+0% {
+        -webkit-transform: rotate(-20deg);
+                transform: rotate(-20deg);
+}
+50% {
+        -webkit-transform: rotate(20deg);
+                transform: rotate(20deg);
+}
+100% {
+        -webkit-transform: rotate(-20deg);
+                transform: rotate(-20deg);
+}
+}
+.balloon-border {
+    width: 100%;
+    top: 100%;
+    position: fixed;
+    opacity: 0.5;
+    z-index: 9999;
+}
+.control-panel {
+    position: fixed;
+    bottom: 0;
+    padding: 10px 0px 10px 0px;
+}
+.cake-cover {
+    margin-top: 50px;
+}
+.message {
+    margin-top: 200px;
+    display: none;
+}
+.message ._p {
+    font-family: 'Signika', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #C4515C;
+    text-shadow: 2px 2px 2px #FFF;
+    display: none;
+    font-weight: bold;
+}
+button :hover {
+    cursor: pointer;
+}
+.buttom-button {
+    position:  fixed;
+    bottom: 10rpx;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+}
+.btn-primary {
+    width: 100%;
+    border-color: #466baf;
+    padding: 10px;
+    text-transform: uppercase;
+    font-family: 'Signika', sans-serif;
+    font-weight: 700;
+    line-height: 50rpx;
+    text-align: center;
+    color: #fff;
+    background-color: #466baf;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    border-color: #fff;
+    color: #fff;
+    background-color: #466baf;
+}
+
+/*controlling tablet width*/
+
+/*@media only screen and (max-width: 720px){
+    	.container {
+    		-webkit-transform: scale(0.9);
+    	}
+    }*/
+
+/* Absolute Center CSS Spinner */
+.loading {
+  position: fixed;
+  z-index: 99999;
+  height: 2em;
+  width: 2em;
+  overflow: show;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+/* Transparent Overlay */
+.loading:before {
+  content: '';
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.3);
+}
+
+/* :not(:required) hides these rules from IE9 and below */
+.loading:not(:required) {
+  /* hide "loading..." text */
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.loading:not(:required):after {
+  content: '';
+  display: block;
+  font-size: 10px;
+  width: 1em;
+  height: 1em;
+  margin-top: -0.5em;
+  -webkit-animation: spinner 1500ms infinite linear;
+  animation: spinner 1500ms infinite linear;
+  border-radius: 0.5em;
+  -webkit-box-shadow: #FFF 1.5em 0 0 0, rgba(0, 0, 0, 0.75) 1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) 0 1.5em 0 0, #FFF -1.1em 1.1em 0 0, rgba(0, 0, 0, 0.5) -1.5em 0 0 0, rgba(0, 0, 0, 0.5) -1.1em -1.1em 0 0, rgba(0, 0, 0, 0.75) 0 -1.5em 0 0, rgba(0, 0, 0, 0.75) 1.1em -1.1em 0 0;
+  box-shadow: #FFF 1.5em 0 0 0, rgba(0, 0, 0, 0.75) 1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) 0 1.5em 0 0, #FFF -1.1em 1.1em 0 0, rgba(0, 0, 0, 0.5) -1.5em 0 0 0, rgba(0, 0, 0, 0.5) -1.1em -1.1em 0 0, rgba(0, 0, 0, 0.75) 0 -1.5em 0 0, rgba(0, 0, 0, 0.75) 1.1em -1.1em 0 0;
+}
+
+/* Animation */
+@-webkit-keyframes spinner {
+0% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+100% {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+}
+@keyframes spinner {
+0% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+100% {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+}
+
+/* ============================================== POSITION
+*/
+.cake {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  margin-left: -150px;
+  width: 300px;
+  height: 300px;
+}
+
+/* ============================================== BASE
+*/
+.cake:after {
+  background: #ffffff;
+  border-radius: 300px;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 300px;
+  height: 6px;
+}
+
+/* ============================================== Candle
+*/
+.velas {
+  background: #ffffff;
+  border-radius: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -7.5px;
+  margin-top: -25px;
+  width: 15px;
+  height: 50px;
+}
+.velas:after,
+.velas:before {
+  background: rgba(255, 0, 0, 0.4);
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 6.66666667px;
+}
+.velas:after {
+  top: 25%;
+  left: 0;
+}
+.velas:before {
+  top: 45%;
+  left: 0;
+}
+
+/* ============================================== Fire
+*/
+.fuego {
+  border-radius: 100%;
+  -webkit-box-shadow: 0 0 40px 10px rgba(248, 233, 209, 0.2);
+          box-shadow: 0 0 40px 10px rgba(248, 233, 209, 0.2);
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  margin-left: -10px;
+  width: 20px;
+  height: 37.5px;
+}
+.fuego:nth-child(1) {
+  -webkit-animation: fuego 2s infinite;
+  animation: fuego 2s infinite;
+}
+.fuego:nth-child(2) {
+  -webkit-animation: fuego 1.5s infinite;
+  animation: fuego 1.5s infinite;
+}
+.fuego:nth-child(3) {
+  -webkit-animation: fuego 1s infinite;
+  animation: fuego 1s infinite;
+}
+.fuego:nth-child(4) {
+  -webkit-animation: fuego 0.5s infinite;
+  animation: fuego 0.5s infinite;
+}
+.fuego:nth-child(5) {
+  -webkit-animation: fuego 0.2s infinite;
+  animation: fuego 0.2s infinite;
+}
+
+/* ============================================== Animation Fire
+*/
+@-webkit-keyframes fuego {
+0% {
+    background: rgba(254, 248, 97, 0.5);
+    -webkit-transform: translateY(0) scale(1);
+}
+50% {
+    background: rgba(255, 50, 0, 0.1);
+    -webkit-transform: translateY(-60px) scale(0);
+}
+100% {
+    background: rgba(254, 248, 97, 0.5);
+    -webkit-transform: translateY(0) scale(1);
+}
+}
+@keyframes fuego {
+0% {
+    background: rgba(254, 248, 97, 0.5);
+    -webkit-transform: translateY(0) scale(1);
+            transform: translateY(0) scale(1);
+}
+50% {
+    background: rgba(255, 50, 0, 0.1);
+    -webkit-transform: translateY(-60px) scale(0);
+            transform: translateY(-60px) scale(0);
+}
+100% {
+    background: rgba(254, 248, 97, 0.5);
+    -webkit-transform: translateY(0) scale(1);
+            transform: translateY(0) scale(1);
+}
+}
+
+/* ============================================== Frosting
+*/
+.cobertura {
+  background: #ece7e3;
+  border-radius: 150px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  margin-left: -83.33333333px;
+  margin-top: -15px;
+  width: 166.66666667px;
+  height: 37.5px;
+  z-index: 10;
+}
+.cobertura:after,
+.cobertura:before {
+  background: #ece7e3;
+  border-radius: 300px;
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 30px;
+}
+.cobertura:after {
+  top: 20px;
+  right: 42.85714286px;
+}
+.cobertura:before {
+  top: 30px;
+  right: 27.27272727px;
+}
+
+/* ============================================== BIZCOCHO
+*/
+.bizcocho {
+  background: #6d3826;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -75px;
+  width: 150px;
+  height: 100px;
+}
+.bizcocho:after,
+.bizcocho:before {
+  background: rgba(236, 231, 227, 0.6);
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 15px;
+}
+.bizcocho:after {
+  top: 30%;
+  left: 0;
+}
+.bizcocho:before {
+  top: 60%;
+  left: 0;
+}
+
+/* ============================================== TEXT
+*/
+._h1,
+._p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  width: 100%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+

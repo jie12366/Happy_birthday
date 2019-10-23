@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/birthday/birthday",
+    "pages/new/new",
+    "pages/detail/detail",
+    "pages/photos/photos"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "Happy birthday",
+    "navigationBarBackgroundColor": "#FF80AB",
+    "backgroundColor": "#EFEFEF"
+  },
+  "requiredBackgroundModes": ["audio"],
+  "tabBar": {
+    "color": "#444444",
+    "selectedColor": "#FF80AB",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/new/new",
+        "iconPath": "static/photo.png",
+        "selectedIconPath": "static/photo1.png",
+        "text": "相册"
+      },
+      {
+        "pagePath": "pages/birthday/birthday",
+        "iconPath": "static/cake.png",
+        "selectedIconPath": "static/cake1.png",
+        "text": "生日快乐"
+      },
+      {
+        "pagePath": "pages/photos/photos",
+        "iconPath": "static/wallpaper.png",
+        "selectedIconPath": "static/wallpaper1.png",
+        "text": "壁纸"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap42.json"
+}

@@ -1,0 +1,80 @@
+{
+    "pages": [{
+            "path": "pages/birthday/birthday",
+            "style": {
+                "navigationBarTitleText": "生日快乐",
+                "enablePullDownRefresh": true
+            }
+        },
+        {
+            //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+            "path": "pages/new/new",
+            "style": {
+                "navigationBarTitleText": "相册",
+                "enablePullDownRefresh": true
+            }
+        },
+        {
+            "path": "pages/detail/detail",
+            "style": {
+                "navigationBarTitleText": "详情",
+                "navigationBarBackgroundColor": "#000000",
+                "backgroundColor": "#000000",
+                "app-plus": {
+                    "bounce": "none",
+                    "titleNView": {
+                        "buttons": [{
+                            "type": "share"
+                        }]
+                    }
+                },
+                "h5": {
+                    "titleNView": {
+                        "buttons": [{
+                            "type": "favorite"
+                        }]
+                    }
+                }
+            }
+        },
+        {
+            //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+            "path": "pages/photos/photos",
+            "style": {
+                "navigationBarTitleText": "壁纸",
+                "enablePullDownRefresh": true
+            }
+        }
+    ],
+    "globalStyle": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "Happy birthday",
+        "navigationBarBackgroundColor": "#FF80AB",
+        "backgroundColor": "#EFEFEF"
+    },
+    "tabBar": {
+        "color": "#444444",
+        "selectedColor": "#FF80AB",
+        "borderStyle": "black",
+        "backgroundColor": "#ffffff",
+        "list": [{
+                "pagePath": "pages/new/new",
+                "iconPath": "static/photo.png",
+                "selectedIconPath": "static/photo1.png",
+                "text": "相册"
+            },
+            {
+                "pagePath": "pages/birthday/birthday",
+                "iconPath": "static/cake.png",
+                "selectedIconPath": "static/cake1.png",
+                "text": "生日快乐"
+            },
+            {
+                "pagePath": "pages/photos/photos",
+                "iconPath": "static/wallpaper.png",
+                "selectedIconPath": "static/wallpaper1.png",
+                "text": "壁纸"
+            }
+        ]
+    }
+}
